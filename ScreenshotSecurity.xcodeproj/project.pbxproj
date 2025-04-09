@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		130783542DA6665A0084C7DE /* ScreenshotSecureModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1307834A2DA6665A0084C7DE /* ScreenshotSecureModifier.swift */; };
-		130783552DA6665A0084C7DE /* UISecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1307834F2DA6665A0084C7DE /* UISecureField.swift */; };
-		130783562DA6665A0084C7DE /* ScreenshotSecureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1307834E2DA6665A0084C7DE /* ScreenshotSecureView.swift */; };
-		130783572DA6665A0084C7DE /* ScreenshotSecureRepresentableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1307834B2DA6665A0084C7DE /* ScreenshotSecureRepresentableView.swift */; };
-		130783582DA6665A0084C7DE /* IntrinsicContentHeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1307834D2DA6665A0084C7DE /* IntrinsicContentHeightView.swift */; };
-		130783592DA6665A0084C7DE /* ScreenshotSecurity.h in Headers */ = {isa = PBXBuildFile; fileRef = 130783512DA6665A0084C7DE /* ScreenshotSecurity.h */; };
+		13264D252DA66C2F00506FE4 /* ScreenshotSecurity.h in Headers */ = {isa = PBXBuildFile; fileRef = 13264D222DA66C2F00506FE4 /* ScreenshotSecurity.h */; };
+		13264D262DA66C2F00506FE4 /* ScreenshotSecureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13264D1F2DA66C2F00506FE4 /* ScreenshotSecureView.swift */; };
+		13264D272DA66C2F00506FE4 /* IntrinsicContentHeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13264D1E2DA66C2F00506FE4 /* IntrinsicContentHeightView.swift */; };
+		13264D282DA66C2F00506FE4 /* ScreenshotSecureModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13264D1B2DA66C2F00506FE4 /* ScreenshotSecureModifier.swift */; };
+		13264D292DA66C2F00506FE4 /* UISecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13264D202DA66C2F00506FE4 /* UISecureField.swift */; };
+		13264D2A2DA66C2F00506FE4 /* ScreenshotSecureRepresentableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13264D1C2DA66C2F00506FE4 /* ScreenshotSecureRepresentableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1307834A2DA6665A0084C7DE /* ScreenshotSecureModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotSecureModifier.swift; sourceTree = "<group>"; };
-		1307834B2DA6665A0084C7DE /* ScreenshotSecureRepresentableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotSecureRepresentableView.swift; sourceTree = "<group>"; };
-		1307834D2DA6665A0084C7DE /* IntrinsicContentHeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntrinsicContentHeightView.swift; sourceTree = "<group>"; };
-		1307834E2DA6665A0084C7DE /* ScreenshotSecureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotSecureView.swift; sourceTree = "<group>"; };
-		1307834F2DA6665A0084C7DE /* UISecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISecureField.swift; sourceTree = "<group>"; };
-		130783512DA6665A0084C7DE /* ScreenshotSecurity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenshotSecurity.h; sourceTree = "<group>"; };
+		13264D1B2DA66C2F00506FE4 /* ScreenshotSecureModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotSecureModifier.swift; sourceTree = "<group>"; };
+		13264D1C2DA66C2F00506FE4 /* ScreenshotSecureRepresentableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotSecureRepresentableView.swift; sourceTree = "<group>"; };
+		13264D1E2DA66C2F00506FE4 /* IntrinsicContentHeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntrinsicContentHeightView.swift; sourceTree = "<group>"; };
+		13264D1F2DA66C2F00506FE4 /* ScreenshotSecureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotSecureView.swift; sourceTree = "<group>"; };
+		13264D202DA66C2F00506FE4 /* UISecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISecureField.swift; sourceTree = "<group>"; };
+		13264D222DA66C2F00506FE4 /* ScreenshotSecurity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenshotSecurity.h; sourceTree = "<group>"; };
 		136596EB2B05B7DD009D647A /* ScreenshotSecurity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ScreenshotSecurity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -36,47 +36,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1307834C2DA6665A0084C7DE /* SUI */ = {
+		13264D1D2DA66C2F00506FE4 /* SUI */ = {
 			isa = PBXGroup;
 			children = (
-				1307834A2DA6665A0084C7DE /* ScreenshotSecureModifier.swift */,
-				1307834B2DA6665A0084C7DE /* ScreenshotSecureRepresentableView.swift */,
+				13264D1B2DA66C2F00506FE4 /* ScreenshotSecureModifier.swift */,
+				13264D1C2DA66C2F00506FE4 /* ScreenshotSecureRepresentableView.swift */,
 			);
 			path = SUI;
 			sourceTree = "<group>";
 		};
-		130783502DA6665A0084C7DE /* UIKit */ = {
+		13264D212DA66C2F00506FE4 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				1307834D2DA6665A0084C7DE /* IntrinsicContentHeightView.swift */,
-				1307834E2DA6665A0084C7DE /* ScreenshotSecureView.swift */,
-				1307834F2DA6665A0084C7DE /* UISecureField.swift */,
+				13264D1E2DA66C2F00506FE4 /* IntrinsicContentHeightView.swift */,
+				13264D1F2DA66C2F00506FE4 /* ScreenshotSecureView.swift */,
+				13264D202DA66C2F00506FE4 /* UISecureField.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
 		};
-		130783522DA6665A0084C7DE /* ScreenshotSecurity */ = {
+		13264D232DA66C2F00506FE4 /* ScreenshotSecurity */ = {
 			isa = PBXGroup;
 			children = (
-				1307834C2DA6665A0084C7DE /* SUI */,
-				130783502DA6665A0084C7DE /* UIKit */,
-				130783512DA6665A0084C7DE /* ScreenshotSecurity.h */,
+				13264D1D2DA66C2F00506FE4 /* SUI */,
+				13264D212DA66C2F00506FE4 /* UIKit */,
+				13264D222DA66C2F00506FE4 /* ScreenshotSecurity.h */,
 			);
 			path = ScreenshotSecurity;
 			sourceTree = "<group>";
 		};
-		130783532DA6665A0084C7DE /* Source */ = {
+		13264D242DA66C2F00506FE4 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				130783522DA6665A0084C7DE /* ScreenshotSecurity */,
+				13264D232DA66C2F00506FE4 /* ScreenshotSecurity */,
 			);
-			path = Source;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		136596E12B05B7DD009D647A = {
 			isa = PBXGroup;
 			children = (
-				130783532DA6665A0084C7DE /* Source */,
+				13264D242DA66C2F00506FE4 /* Sources */,
 				136596EC2B05B7DD009D647A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,7 +96,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				130783592DA6665A0084C7DE /* ScreenshotSecurity.h in Headers */,
+				13264D252DA66C2F00506FE4 /* ScreenshotSecurity.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,11 +169,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				130783542DA6665A0084C7DE /* ScreenshotSecureModifier.swift in Sources */,
-				130783552DA6665A0084C7DE /* UISecureField.swift in Sources */,
-				130783562DA6665A0084C7DE /* ScreenshotSecureView.swift in Sources */,
-				130783572DA6665A0084C7DE /* ScreenshotSecureRepresentableView.swift in Sources */,
-				130783582DA6665A0084C7DE /* IntrinsicContentHeightView.swift in Sources */,
+				13264D262DA66C2F00506FE4 /* ScreenshotSecureView.swift in Sources */,
+				13264D272DA66C2F00506FE4 /* IntrinsicContentHeightView.swift in Sources */,
+				13264D282DA66C2F00506FE4 /* ScreenshotSecureModifier.swift in Sources */,
+				13264D292DA66C2F00506FE4 /* UISecureField.swift in Sources */,
+				13264D2A2DA66C2F00506FE4 /* ScreenshotSecureRepresentableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
