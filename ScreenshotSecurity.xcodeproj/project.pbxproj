@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		135C67562DA5327300E4801B /* IntrinsicContentHeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135C67552DA5327300E4801B /* IntrinsicContentHeightView.swift */; };
-		136596EF2B05B7DD009D647A /* ScreenshotSecurity.h in Headers */ = {isa = PBXBuildFile; fileRef = 136596EE2B05B7DD009D647A /* ScreenshotSecurity.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		136596F82B05B81F009D647A /* UISecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136596F72B05B81F009D647A /* UISecureField.swift */; };
-		136596FA2B05B9D0009D647A /* ScreenshotSecureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136596F92B05B9D0009D647A /* ScreenshotSecureView.swift */; };
-		136596FC2B05BEF0009D647A /* ScreenshotSecureRepresentableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136596FB2B05BEF0009D647A /* ScreenshotSecureRepresentableView.swift */; };
-		136596FE2B05C0B3009D647A /* ScreenshotSecureModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136596FD2B05C0B3009D647A /* ScreenshotSecureModifier.swift */; };
+		130783542DA6665A0084C7DE /* ScreenshotSecureModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1307834A2DA6665A0084C7DE /* ScreenshotSecureModifier.swift */; };
+		130783552DA6665A0084C7DE /* UISecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1307834F2DA6665A0084C7DE /* UISecureField.swift */; };
+		130783562DA6665A0084C7DE /* ScreenshotSecureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1307834E2DA6665A0084C7DE /* ScreenshotSecureView.swift */; };
+		130783572DA6665A0084C7DE /* ScreenshotSecureRepresentableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1307834B2DA6665A0084C7DE /* ScreenshotSecureRepresentableView.swift */; };
+		130783582DA6665A0084C7DE /* IntrinsicContentHeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1307834D2DA6665A0084C7DE /* IntrinsicContentHeightView.swift */; };
+		130783592DA6665A0084C7DE /* ScreenshotSecurity.h in Headers */ = {isa = PBXBuildFile; fileRef = 130783512DA6665A0084C7DE /* ScreenshotSecurity.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		135C67552DA5327300E4801B /* IntrinsicContentHeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntrinsicContentHeightView.swift; sourceTree = "<group>"; };
+		1307834A2DA6665A0084C7DE /* ScreenshotSecureModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotSecureModifier.swift; sourceTree = "<group>"; };
+		1307834B2DA6665A0084C7DE /* ScreenshotSecureRepresentableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotSecureRepresentableView.swift; sourceTree = "<group>"; };
+		1307834D2DA6665A0084C7DE /* IntrinsicContentHeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntrinsicContentHeightView.swift; sourceTree = "<group>"; };
+		1307834E2DA6665A0084C7DE /* ScreenshotSecureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotSecureView.swift; sourceTree = "<group>"; };
+		1307834F2DA6665A0084C7DE /* UISecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISecureField.swift; sourceTree = "<group>"; };
+		130783512DA6665A0084C7DE /* ScreenshotSecurity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenshotSecurity.h; sourceTree = "<group>"; };
 		136596EB2B05B7DD009D647A /* ScreenshotSecurity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ScreenshotSecurity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		136596EE2B05B7DD009D647A /* ScreenshotSecurity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenshotSecurity.h; sourceTree = "<group>"; };
-		136596F72B05B81F009D647A /* UISecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISecureField.swift; sourceTree = "<group>"; };
-		136596F92B05B9D0009D647A /* ScreenshotSecureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotSecureView.swift; sourceTree = "<group>"; };
-		136596FB2B05BEF0009D647A /* ScreenshotSecureRepresentableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotSecureRepresentableView.swift; sourceTree = "<group>"; };
-		136596FD2B05C0B3009D647A /* ScreenshotSecureModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotSecureModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,10 +36,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1307834C2DA6665A0084C7DE /* SUI */ = {
+			isa = PBXGroup;
+			children = (
+				1307834A2DA6665A0084C7DE /* ScreenshotSecureModifier.swift */,
+				1307834B2DA6665A0084C7DE /* ScreenshotSecureRepresentableView.swift */,
+			);
+			path = SUI;
+			sourceTree = "<group>";
+		};
+		130783502DA6665A0084C7DE /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				1307834D2DA6665A0084C7DE /* IntrinsicContentHeightView.swift */,
+				1307834E2DA6665A0084C7DE /* ScreenshotSecureView.swift */,
+				1307834F2DA6665A0084C7DE /* UISecureField.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		130783522DA6665A0084C7DE /* ScreenshotSecurity */ = {
+			isa = PBXGroup;
+			children = (
+				1307834C2DA6665A0084C7DE /* SUI */,
+				130783502DA6665A0084C7DE /* UIKit */,
+				130783512DA6665A0084C7DE /* ScreenshotSecurity.h */,
+			);
+			path = ScreenshotSecurity;
+			sourceTree = "<group>";
+		};
+		130783532DA6665A0084C7DE /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				130783522DA6665A0084C7DE /* ScreenshotSecurity */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		136596E12B05B7DD009D647A = {
 			isa = PBXGroup;
 			children = (
-				136596ED2B05B7DD009D647A /* ScreenshotSecurity */,
+				130783532DA6665A0084C7DE /* Source */,
 				136596EC2B05B7DD009D647A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,35 +89,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		136596ED2B05B7DD009D647A /* ScreenshotSecurity */ = {
-			isa = PBXGroup;
-			children = (
-				136596F62B05B7ED009D647A /* SUI */,
-				136596F52B05B7E3009D647A /* UIKit */,
-				136596EE2B05B7DD009D647A /* ScreenshotSecurity.h */,
-			);
-			path = ScreenshotSecurity;
-			sourceTree = "<group>";
-		};
-		136596F52B05B7E3009D647A /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				136596F72B05B81F009D647A /* UISecureField.swift */,
-				136596F92B05B9D0009D647A /* ScreenshotSecureView.swift */,
-				135C67552DA5327300E4801B /* IntrinsicContentHeightView.swift */,
-			);
-			path = UIKit;
-			sourceTree = "<group>";
-		};
-		136596F62B05B7ED009D647A /* SUI */ = {
-			isa = PBXGroup;
-			children = (
-				136596FB2B05BEF0009D647A /* ScreenshotSecureRepresentableView.swift */,
-				136596FD2B05C0B3009D647A /* ScreenshotSecureModifier.swift */,
-			);
-			path = SUI;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -88,7 +96,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				136596EF2B05B7DD009D647A /* ScreenshotSecurity.h in Headers */,
+				130783592DA6665A0084C7DE /* ScreenshotSecurity.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,11 +169,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				136596F82B05B81F009D647A /* UISecureField.swift in Sources */,
-				136596FE2B05C0B3009D647A /* ScreenshotSecureModifier.swift in Sources */,
-				136596FC2B05BEF0009D647A /* ScreenshotSecureRepresentableView.swift in Sources */,
-				136596FA2B05B9D0009D647A /* ScreenshotSecureView.swift in Sources */,
-				135C67562DA5327300E4801B /* IntrinsicContentHeightView.swift in Sources */,
+				130783542DA6665A0084C7DE /* ScreenshotSecureModifier.swift in Sources */,
+				130783552DA6665A0084C7DE /* UISecureField.swift in Sources */,
+				130783562DA6665A0084C7DE /* ScreenshotSecureView.swift in Sources */,
+				130783572DA6665A0084C7DE /* ScreenshotSecureRepresentableView.swift in Sources */,
+				130783582DA6665A0084C7DE /* IntrinsicContentHeightView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
