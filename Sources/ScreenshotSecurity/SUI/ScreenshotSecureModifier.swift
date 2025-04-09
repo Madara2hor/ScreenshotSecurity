@@ -11,8 +11,8 @@ struct ScreenshotSecureModifier<ShowView: View>: ViewModifier {
     }
 }
 
-extension View {
-    public func screenshotSecure<ShowView: View>(viewToShow: ShowView?) -> some View {
+public extension View {
+    func screenshotSecure<ShowView: View>(viewToShow: ShowView?) -> some View {
         modifier(ScreenshotSecureModifier(viewToShow: viewToShow))
     }
 }
